@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "clone-chatgpt"
+version = "0.1.0"
+description = "ChatGPT Clone"
+authors = ["NaimC <naim.chihi@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+flask = "2.3.3"
+openai = "0.27.10"
+python-dotenv = "1.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
